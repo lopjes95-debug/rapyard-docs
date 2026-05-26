@@ -1,0 +1,26 @@
+﻿{
+  "\": "https://openapi.vercel.sh/vercel.json",
+  "version": 3,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "docs.rapyard.club" }],
+      "destination": "/docs/\"
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "*.rapyard.club" }],
+      "destination": "/tenant/:tenant/\"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.rapyard.club" }],
+      "destination": "https://rapyard.club/\",
+      "statusCode": 308
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}

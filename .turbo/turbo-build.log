@@ -1,0 +1,27 @@
+[WARN] The "workspaces" field in package.json is not supported by pnpm. Create a "pnpm-workspace.yaml" file instead.
+[WARN] The "workspaces" field in package.json is not supported by pnpm. Create a "pnpm-workspace.yaml" file instead.
+
+   ╭─────────────────────────────────────────╮
+   │                                         │
+   │   Update available! 11.1.2 → 11.3.0.    │
+   │   Changelog: https://pnpm.io/v/11.3.0   │
+   │    To update, run: pnpm add -g pnpm     │
+   │                                         │
+   ╰─────────────────────────────────────────╯
+
+[ERR_PNPM_ABORTED_REMOVE_MODULES_DIR_NO_TTY] Aborted removal of modules directory due to no TTY
+
+If you are running pnpm in CI, set the CI environment variable to "true", or set "confirmModulesPurge" to "false".
+[ERROR] Command failed with exit code 1: "C:\Program Files\nodejs\node.exe" "C:\Users\lopje\AppData\Roaming\npm\node_modules\pnpm\bin\pnpm.mjs" install
+
+pnpm: Command failed with exit code 1: "C:\Program Files\nodejs\node.exe" "C:\Users\lopje\AppData\Roaming\npm\node_modules\pnpm\bin\pnpm.mjs" install
+    at getFinalError (file:///C:/Users/lopje/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:28776:14)
+    at makeError (file:///C:/Users/lopje/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:31083:21)
+    at getSyncResult (file:///C:/Users/lopje/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:32927:10)
+    at spawnSubprocessSync (file:///C:/Users/lopje/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:32887:14)
+    at execaCoreSync (file:///C:/Users/lopje/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:32817:23)
+    at callBoundExeca (file:///C:/Users/lopje/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:35345:23)
+    at boundExeca (file:///C:/Users/lopje/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:35322:49)
+    at sync (file:///C:/Users/lopje/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:35481:10)
+    at runPnpmCli (file:///C:/Users/lopje/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:211258:5)
+    at runDepsStatusCheck (file:///C:/Users/lopje/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:212964:7)

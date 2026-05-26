@@ -1,0 +1,42 @@
+
+.cinematic {
+  height: 100vh;
+  background: url("/cinematic-bg.jpg") center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 0 0 20px black;
+  position: relative;
+}
+.title {
+  font-size: 6rem;
+  letter-spacing: 0.2em;
+  font-weight: 900;
+}
+.subtitle {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+.enter {
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+  background: #ff3b3b;
+  color: black;
+  font-weight: 700;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.fog {
+  position: absolute;
+  inset: 0;
+  background: url("/fog.png") center/cover repeat-x;
+  opacity: 0.3;
+  animation: fogMove 30s linear infinite;
+}
+@keyframes fogMove {
+  from { background-position: 0 0; }
+  to { background-position: 2000px 0; }
+}

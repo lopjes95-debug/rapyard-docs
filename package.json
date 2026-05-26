@@ -1,0 +1,12 @@
+{
+  "name": "rapyard",
+  "private": true,
+  "scripts": {
+    "bootstrap": "powershell ./scripts/bootstrap/create-env.ps1",
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "deploy:prod": "powershell ./scripts/bootstrap/deploy-all.ps1"
+  }
+}

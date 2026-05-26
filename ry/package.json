@@ -1,0 +1,13 @@
+﻿{
+  "name": "ry",
+  "private": true,
+  "bin": {
+    "ry": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

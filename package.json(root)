@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "bootstrap": "npm install && npx turbo run build --filter=web",
+    "dev:web": "cd apps/web && npm run dev"
+  }
+}
