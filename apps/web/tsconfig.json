@@ -1,5 +1,7 @@
 {
-  "extends": "next/tsconfig.json",
+  "extends": "@repo/typescri
+  
+  pt-config/nextjs.json",
   "compilerOptions": {
     "baseUrl": ".",
     "ignoreDeprecations": "6.0",
