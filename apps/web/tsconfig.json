@@ -1,18 +1,7 @@
 {
+  "extends": "@repo/typescript-config/nextjs.json",
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "jsx": "preserve",
-    "strict": true,
-    "allowJs": false,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
     "baseUrl": ".",
-    "paths": {
-      "@/*": ["*"]
-    }
+    "ignoreDeprecations": "6.0"
   }
 }
