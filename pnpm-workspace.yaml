@@ -1,7 +1,2 @@
 packages:
-  - apps/*
-  - api
-  - workers
-  - infra
-  - packages/*
-  - tools/*
+  - "docs"
