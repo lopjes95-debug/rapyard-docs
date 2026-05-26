@@ -8,5 +8,18 @@
     "lint": "turbo run lint",
     "test": "turbo run test",
     "deploy:prod": "powershell ./scripts/bootstrap/deploy-all.ps1"
-  }
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "turbo": "^2.9.14"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
 }
